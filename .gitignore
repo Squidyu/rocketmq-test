@@ -1,0 +1,9 @@
+*/.gitignore
+### IntelliJ IDEA ###
+*.log
+*.iml
+### NetBeans ###
+.idea
+target
+*.class
+appLogs

@@ -1,0 +1,18 @@
+#server.port=8080
+#server.tomcat.uri-encoding=utf-8
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+
+apache:
+  rocketmq:
+    ###MQ服务器地址
+    namesrvAddr: localhost:9876
+    producer:
+      ###生产者分组
+      producerGroup: myProducer
+    ###消费者名称
+    consumer:
+      PushConsumer: myPushConsumer1
+      consumerGroup: xxx
