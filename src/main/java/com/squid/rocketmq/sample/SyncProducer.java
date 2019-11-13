@@ -17,6 +17,9 @@ public class SyncProducer {
         // Specify name server addresses.
         producer.setNamesrvAddr("localhost:9876");
         //Launch the instance.
+        /**
+         * 默认超时时间3000ms，修改为10000ms
+         */
         producer.setSendMsgTimeout(10000);
         producer.start();
         int messageCount = 10;
